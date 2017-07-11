@@ -1,7 +1,7 @@
 {
   "name": "express-typescript-starter",
   "version": "0.0.0",
-  "main": "build/index.js",
+  "main": "build/dist/index.js",
   "author": "Kacper Wiszczuk <kacperwiszczuk@gmail.com>",
   "license": "MIT",
   "scripts": {
