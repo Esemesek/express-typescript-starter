@@ -4,8 +4,8 @@ import * as BodyParser from 'body-parser';
 export default class Server {
   private app: Express.Application;
 
-  constructor(port: number) {
-    this.app = Express().set('port', port);
+  constructor() {
+    this.app = Express();
 
     this.config();
   }
@@ -19,5 +19,5 @@ export default class Server {
     }));
   }
 
-  public static bootstrap = (port: number): Server => new Server(port);
+  public static bootstrap = (): Server => new Server();
 }
